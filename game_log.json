@@ -1,0 +1,184 @@
+[
+    {
+        "date": "2024-12-03 22:14:59",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 400,
+        "balance": 1600
+    },
+    {
+        "date": "2024-12-03 22:15:02",
+        "game": "baccarat",
+        "status": "\u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448",
+        "amount": 400,
+        "balance": 1200
+    },
+    {
+        "date": "2024-12-03 22:15:04",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 200,
+        "balance": 1400
+    },
+    {
+        "date": "2024-12-03 22:15:06",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 100,
+        "balance": 1500
+    },
+    {
+        "date": "2024-12-03 22:15:08",
+        "game": "baccarat",
+        "status": "\u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448",
+        "amount": 100,
+        "balance": 1400
+    },
+    {
+        "date": "2024-12-03 22:15:11",
+        "game": "baccarat",
+        "status": "\u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448",
+        "amount": 1000,
+        "balance": 400
+    },
+    {
+        "date": "2024-12-03 22:15:13",
+        "game": "baccarat",
+        "status": "\u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448",
+        "amount": 100,
+        "balance": 300
+    },
+    {
+        "date": "2024-12-03 22:15:15",
+        "game": "baccarat",
+        "status": "\u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448",
+        "amount": 100,
+        "balance": 200
+    },
+    {
+        "date": "2024-12-03 22:15:16",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 100,
+        "balance": 300
+    },
+    {
+        "date": "2024-12-03 22:15:18",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 100,
+        "balance": 400
+    },
+    {
+        "date": "2024-12-03 22:15:20",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 200,
+        "balance": 600
+    },
+    {
+        "date": "2024-12-03 22:15:23",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 600,
+        "balance": 1200
+    },
+    {
+        "date": "2024-12-03 22:15:25",
+        "game": "baccarat",
+        "status": "\u0432\u044b\u0438\u0433\u0440\u044b\u0448",
+        "amount": 1200,
+        "balance": 2400
+    },
+    {
+        "date": "2024-12-03 22:15:28",
+        "game": "baccarat",
+        "status": "\u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0448",
+        "amount": 2400,
+        "balance": 0
+    },
+    {
+        "date": "2024-12-03 22:19:46",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 800
+    },
+    {
+        "date": "2024-12-03 22:19:49",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 1100
+    },
+    {
+        "date": "2024-12-03 22:19:51",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 1400
+    },
+    {
+        "date": "2024-12-03 22:19:53",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 1700
+    },
+    {
+        "date": "2024-12-03 22:19:54",
+        "game": "craps",
+        "status": "lose",
+        "amount": 300,
+        "balance": 1400
+    },
+    {
+        "date": "2024-12-03 22:19:57",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 1700
+    },
+    {
+        "date": "2024-12-03 22:19:58",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 2000
+    },
+    {
+        "date": "2024-12-03 22:20:00",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 2300
+    },
+    {
+        "date": "2024-12-03 22:20:02",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 2600
+    },
+    {
+        "date": "2024-12-03 22:20:06",
+        "game": "craps",
+        "status": "win",
+        "amount": 300,
+        "balance": 2900
+    },
+    {
+        "date": "2024-12-03 22:20:09",
+        "game": "craps",
+        "status": "lose",
+        "amount": 2900,
+        "balance": 0
+    },
+    {
+        "date": "2024-12-03 22:32:40",
+        "game": "wheel",
+        "status": "lose",
+        "amount": 5000,
+        "balance": 0
+    }
+]

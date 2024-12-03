@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/playgame.css">
+    <link href='https://fonts.googleapis.com/css?family=Unbounded' rel='stylesheet'>
+    <title>GAMЕ</title>
+</head>
+<body>
+<div class="balance-label">Баланс: <?php echo isset($_SESSION['balance']) ? $_SESSION['balance'] : 0; ?> P</div>
+<div class="main-form">
+    <form method="post" action="playgame.php">
+        <h1> <?php echo isset($_SESSION['current_game']) ? ucfirst($_SESSION['current_game']) : 'Название игры'; ?> </h1>
+        <div class="bet-form">
+                <h2>Ставка:</h2>
+                <input type="text" name="bet" placeholder="Введите сумму:">
+                <button name="play">Играть</button>
+                <br>
+                <br>
+                <button type="button" onclick="document.location='balance.php'">Вернуться назад</button>
+        </div>
+        <div class="result-label">Результат: <?php echo isset($result) ? $result : (isset($error_message) ? $error_message : ''); ?></div>
+    </form>
+</div>
+    
+
+    
+</body>
+</html>

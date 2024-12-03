@@ -1,0 +1,48 @@
+body {
+    font-family: 'Unbounded';
+    background-image: url('https://images.unsplash.com/photo-1699891730669-2d15cf3a5979?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.form-container
+{
+    background-color: rgba(217, 217, 217, 0.28);
+    height: 581px;
+    width: 1067px;
+    padding: 20px;
+    border-radius: 49px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    align-items: center;
+    
+}
+
+input {
+    font-family: 'Unbounded';
+    width: 473px;
+    height: 67px;
+    border: none;
+    align-items: center;
+    border-radius: 11px;
+    font-size: 40px;
+}
+button {
+    font-family: 'Unbounded';
+    background-color: #CB028F;
+    color: white;
+    border: none;
+    padding: 100px 100x;
+    border-radius: 27px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 32px;
+    width: 336px;
+    height: 75px;
+}

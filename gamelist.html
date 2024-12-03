@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/changegame.css">
+    <link href='https://fonts.googleapis.com/css?family=Unbounded' rel='stylesheet'>
+    <title>ВЫБЕРIТЕ IГPU</title>
+</head>
+<body>
+    <div class="form">
+        <form name="game" id="game" method="post" action="playgame.php"> 
+            <div class="balance-label">Баланс: <?php echo isset($_SESSION['balance']) ? $_SESSION['balance'] : 0; ?> P</div>
+        <hr class="divider">
+        <div class="buttons">
+            <button type="submit" name="game" value="rulet" class="circle-button">Рулетка</button>
+            <button type="submit" name="game" value="blackjake" class="circle-button">БлекДжек</button>
+            <button type="submit" name="game" value="baccarat" class="circle-button">Баккара</button>
+            <button type="submit" name="game" value="craps" class="circle-button">Крэпс</button>
+            <button type="submit" name="game" value="wheel" class="circle-button">Колесо фортуны</button>
+        </div>
+        </form>
+        <div class="footer-text">Выберите игру</div>
+    </div>
+</body>
+</html>

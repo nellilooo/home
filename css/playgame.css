@@ -1,0 +1,62 @@
+body {
+    font-family: 'Unbounded';
+    background-image: url('https://images.unsplash.com/photo-1699891730669-2d15cf3a5979?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+.balance-label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.main-form {
+    background-color: rgba(217, 217, 217, 0.28);
+    height: 770px;
+    width: 1163px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+.bet-form {
+    background-color: rgba(217, 217, 217, 0.28);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;   
+}
+
+input {
+    font-family: 'Unbounded';
+    width: 324px;
+    height: 49px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 21px;
+    font-size: 32px
+}
+
+button {
+    font-family: 'Unbounded';
+    background-color: #CB028F;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 32px;
+    width: 200px;
+    height: 49px;
+}
+
+

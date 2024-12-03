@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/balance.css">
+    <link href='https://fonts.googleapis.com/css?family=Unbounded' rel='stylesheet'>
+    <title>BAЛАNC</title>
+</head>
+<body>
+    <div class="form-container">
+        <form method="POST" action="balance.php">
+            <label>Баланс: <?= isset($_SESSION['balance']) ? $_SESSION['balance'] : 0; ?> Р</label>
+            <br> <br> <br><br>
+                <input type="number" name="balance" required placeholder="Введите сумму:">  
+                <button type="submit" name="set-balance">Добавить</button> <br> 
+                <div class="error-message">
+                    <?php echo $error_message; ?>
+                </div>
+            <br> <br><br><br>
+            <button type="button" onclick="document.location='gamelist.php'">Играть!</button>
+        </form>
+    </div>
+</body>
+</html>

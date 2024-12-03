@@ -1,0 +1,63 @@
+body {
+    font-family: 'Unbounded';
+    background-image: url('https://images.unsplash.com/photo-1699891730669-2d15cf3a5979?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+.form {
+    background-color: transparent;
+    height: 581px;
+    width: 1067px;
+    padding: 20px;
+    border-radius: 49px;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.balance-label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.divider {
+    border: 1px solid white;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px #CB028F;
+}
+
+
+button {
+    font-family: 'Unbounded';
+    width: 247px;
+    height: 203px;
+    margin: 25px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgba(217, 217, 217, 0.5);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+button:hover {
+    background-color: #77777750;    
+}
+
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 30px;
+}
